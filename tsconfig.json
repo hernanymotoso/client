@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": "src",
-    "target": "es5",
+    "target": "es6",
     "lib": [
       "dom",
       "dom.iterable",
@@ -30,7 +30,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "generators/plopfile.js"  ],
   "exclude": [
     "node_modules"
   ]

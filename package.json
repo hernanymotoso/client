@@ -2,6 +2,7 @@
   "name": "boilerplate",
   "version": "0.1.0",
   "private": true,
+  "type":"module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,7 +12,8 @@
     "test": "jest",
     "test:watch": "yarn test --watch",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
   "lint-staged": {
     "src/**/*": [
@@ -58,6 +60,7 @@
     "jest-environment-jsdom": "^29.0.2",
     "jest-styled-components": "^7.1.1",
     "lint-staged": "^13.0.3",
+    "plop": "^3.1.1",
     "prettier": "^2.7.1",
     "ts-jest": "^28.0.8",
     "ts-node": "^10.9.1",
